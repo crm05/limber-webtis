@@ -1,0 +1,160 @@
+*{
+}
+
+nav{
+    background-color: rgb(255, 236, 236);
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    font-size: 12px;
+}
+.menu{
+    display: flex;
+    
+}
+.menu>ul>li{
+    display: inline;
+    margin-left: 15px;
+}
+#videos{
+    margin-top: 12%;
+}
+.col-md-4{
+    width: 100%;
+    border-radius: 15px;
+    text-align: center;
+    border: 3px;
+    border-style: ridge;
+
+    margin: 2% 0 2% 0;
+    
+}
+#videoContainer{
+}
+.video>a>img{
+    width: 50%;
+    
+}
+.video>h6>a{
+    text-decoration: none;
+}
+.video>h6>a:hover{
+    color: red;
+}
+.video>p{
+    font-size: 9px;
+    margin-bottom: 10%;
+}
+.section-title{
+    margin: 0 15% 0 15%;
+}
+p{
+    font-size: 12px;
+}
+li>a{
+    text-decoration: none;
+    color: black;
+}
+li>a:hover{
+    color: blue;
+}
+li{
+    list-style: none;
+}
+.logo{
+    width: 10%;
+    margin: 1% 0 0 1%;
+}
+.logo>img{
+    padding: 1%;
+}
+.section-title{
+    text-align: center;
+}
+
+#especificaciones{
+    margin-top: 12%;
+}
+.col-lg-10{
+    column-count: 3;
+}
+.row>h3{
+    text-align: center;
+}
+.pt-lg-0{
+    margin-top: 12%;
+}
+.row{
+    margin: 0 20% 0 20%;
+}
+.resume-item>h4{
+    font-size: 12px;
+    text-align: center;
+    padding: 3px;
+}
+.icon-box>h5>a{
+    text-decoration: none;  
+}
+.icon-box>a>img{
+    width: 50px;
+    height: 50px;
+    margin: 15% 0 0 0;
+}
+.icon-box>h5>a:hover{
+    color: red;
+}
+.col-lg-3{
+    width: 100%;
+    column-count: 3;
+}
+.resume-item:hover{
+    transform: scale(1.2);
+    background-color: rgb(249, 249, 253);
+    color: black;
+    margin: 0 2% 0 2%;
+    border: 2px;
+    border-style: ridge;
+    border-color: blue;
+}
+.resume-item{
+    background-color: rgb(29, 60, 232);
+    height: 150px;
+    margin-top: 0%;
+    border-radius: 10%;
+    color: white;
+    padding: 2px;
+    overflow: hidden;
+    transition: 0.5s;
+    object-fit: cover;
+}
+
+.resume-item>h5{
+    margin-left: 10%;
+    font-size: 12px;
+    margin-top: -5%;
+}
+.resume-item>ul>li{
+    font-size: 9px;
+}   
+#contacto{
+    margin-top: 0%;
+}
+
+footer{
+    background-color: rgb(29, 60, 232);
+    text-align: center;
+    width: 100%;
+    color: white;
+    position: absolute;
+    left: 0%;
+    font-size: 9px;
+    margin: 5%;
+    margin-left: 0%;
+}
+h4{
+    font-size: 9px;
+}
+footer p{
+    font-size: 9px;
+}

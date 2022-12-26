@@ -1,4 +1,5 @@
 *{
+    
 }
 
 nav{
@@ -11,7 +12,7 @@ nav{
 }
 .menu{
     display: flex;
-    
+    background-color: rgb(29, 60, 232);
 }
 .menu>ul>li{
     display: inline;
@@ -26,15 +27,11 @@ nav{
     text-align: center;
     border: 3px;
     border-style: ridge;
-
     margin: 2% 0 2% 0;
     
 }
-#videoContainer{
-}
 .video>a>img{
     width: 50%;
-    
 }
 .video>h6>a{
     text-decoration: none;
@@ -45,19 +42,28 @@ nav{
 .video>p{
     font-size: 9px;
     margin-bottom: 10%;
+    margin-right: 20%;
+}
+.video>h6{
+    margin-right: 20%;
+}
+.video{
+    column-count: 2;
+    margin-top: 5%;  
 }
 .section-title{
     margin: 0 15% 0 15%;
+    text-align: center;
 }
 p{
     font-size: 12px;
 }
 li>a{
     text-decoration: none;
-    color: black;
+    color: white;
 }
 li>a:hover{
-    color: blue;
+    color: red;
 }
 li{
     list-style: none;
@@ -69,18 +75,18 @@ li{
 .logo>img{
     padding: 1%;
 }
-.section-title{
-    text-align: center;
-}
-
 #especificaciones{
     margin-top: 12%;
+    margin-bottom: 15%;
 }
 .col-lg-10{
     column-count: 3;
 }
 .row>h3{
     text-align: center;
+}
+#videoContainer{
+    margin-bottom: 15%;
 }
 .pt-lg-0{
     margin-top: 12%;
@@ -99,7 +105,7 @@ li{
 .icon-box>a>img{
     width: 50px;
     height: 50px;
-    margin: 15% 0 0 0;
+    margin: 30% 0 0 0;
 }
 .icon-box>h5>a:hover{
     color: red;
@@ -143,18 +149,179 @@ li{
 
 footer{
     background-color: rgb(29, 60, 232);
+    position: fixed;
+    bottom: 0;
     text-align: center;
     width: 100%;
     color: white;
-    position: absolute;
     left: 0%;
     font-size: 9px;
-    margin: 5%;
-    margin-left: 0%;
 }
 h4{
     font-size: 9px;
 }
 footer p{
     font-size: 9px;
+    margin: 0% 0 0% 0;
+    padding: 1px;
+}
+.social-links>a>img{
+    margin: 0 0.5% 0 0.5%;
+    width: 12px;
+    height: 12px;
+}
+#webtis{
+    
+}
+
+@media only screen and (max-width: 640px){
+    .video{
+        column-count: 1;
+        margin-top: 5%;  
+    }
+    .video>p{
+        font-size: 9px;
+        margin-bottom: 5%;
+        margin-right: 8%;
+        margin-left: 8%;
+        margin-top: -5%;
+    }
+    .video>h6{
+        margin-right: 8%;
+        margin-left: 8%;
+        margin-top: -2%;
+    }
+    .video>a>img{
+        width: 70%;
+    }
+    .section-title{
+        margin: 0 10% 0 10%;
+    }
+    #videos{
+        margin-top: 18%;
+        margin-bottom: 20%;
+    }
+    
+    #especificaciones{
+        margin-top: 22%;
+        margin-bottom: 25%;
+    }
+    #videos{
+        margin-top: 22%;
+        margin-bottom: 25%;
+    }
+    .col-lg-10{
+        column-count: 1;
+    }
+    .col-lg-3{
+        column-count: 1;
+        margin-left: 15%;
+    }
+    .resume-item{
+        height: 100px;
+        width: 200px;
+        margin-top: 1%;
+    }
+    .resume-item>h4{
+        padding: 0px;
+        margin-top: 0%;
+    }
+    .resume-item:hover{
+        margin: 5% 2% 5% 2%;
+    }
+    .icon-box>a>img{
+        margin: 20% 0 0 0;
+    }
+}
+@media only screen and (max-width: 400px){
+    .logo{
+        width: 30%;
+        margin: 1% 0 0 1%;
+    }
+    .menu{
+        margin-left: -10%;
+    }
+    #webtis{
+        margin-top: 20%;
+    }
+    .row{
+        margin: 0 10% 0 10%;
+    }
+    #especificaciones{
+        margin-top: 40%;
+        margin-bottom: 50%;
+    }
+    #videos{
+        margin-top: 40%;
+        margin-bottom: 50%;
+    }
+    .resume-item{
+        height: 150px;
+        width: 250px;
+        margin-top: 1%;
+    }
+    .col-lg-3{
+        column-count: 1;
+        margin-left: 6%;
+    }
+    .icon-box>a>img{
+        height: 100px;
+        width: 100px;
+    }
+    .video>a>img{
+        width: 220px;
+        height: 150px;
+    }
+    .video>p{
+        font-size: 15px;
+    }
+    .video>h6{
+        font-size: 18px;
+    }
+    ul>li{
+        font-size: 15px;
+    }
+    .resume-item>ul>li{
+        font-size: 15px;
+    }
+    .resume-item>h5{
+        font-size: 16px;
+    }
+    .resume-item>h4{
+        font-size: 18px;
+    }
+    .icon-box>h5>a{
+        font-size: 18px;
+    }
+    .col-lg-8>p{
+        font-size: 15px;
+    }
+    .col-lg-8>h2{
+        font-size: 25px;
+    }
+    .section-title>h2{
+        font-size: 25px;
+    }
+    .section-title>p{
+        font-size: 15px;
+    }
+    .resume-item:hover{
+        margin: 6% 2% 6% 2%;
+    }
+    .address>p{
+        font-size: 15px;
+    }
+    .email>p{
+        font-size: 15px;
+    }
+    .phone>p{
+        font-size: 15px;
+    }
+    .copyright{
+        font-size: 18px;
+    }
+    .social-links>a>img{
+        height: 30px;
+        width: 30px;
+    }
 }
